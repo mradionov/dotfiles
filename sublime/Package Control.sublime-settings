@@ -1,0 +1,43 @@
+{
+	"bootstrapped": true,
+	"channels":
+	[
+		"https://packagecontrol.io/channel_v3.json"
+	],
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"Babel",
+		"Babel Snippets",
+		"ChangeQuotes",
+		"Color Highlighter",
+		"Copy Relative Path",
+		"CopyFilepathWithLineNumbers",
+		"DocBlockr",
+		"EJS",
+		"Emmet",
+		"FileDiffs",
+		"Git",
+		"GitGutter",
+		"Local History",
+		"Markdown Extended",
+		"Markdown Preview",
+		"Modific",
+		"Package Control",
+		"Pretty JSON",
+		"Ruby Slim",
+		"Sass",
+		"SublimeLinter",
+		"SublimeLinter-contrib-eslint",
+		"Theme - Cobalt2",
+		"TrailingSpaces",
+		"TypeScript",
+		"Vue Syntax Highlight",
+		"Vuejs Snippets"
+	],
+	"repositories":
+	[
+	]
+}

@@ -1,0 +1,17 @@
+// Modific user settings
+{
+    // You can use your commands instead of plain "git" or "svn"
+    // e.g. "/usr/bin/git" or "C:\bin\git.exe"
+
+    // EDITED
+    // REMOVED SVN
+    // http://stackoverflow.com/questions/20512436/svn-binary-could-not-be-found-in-path-error-in-sublime-text-2
+
+
+    "vcs": [
+        {"name": "git", "dir": ".git", "cmd": "git"},
+        {"name": "bzr", "dir": ".bzr", "cmd": "bzr"},
+        {"name": "hg",  "dir": ".hg",  "cmd": "hg"},
+        {"name": "tf",  "dir": "$tf",  "cmd": "C:/Program Files (x86)/Microsoft Visual Studio 11.0/Common7/IDE/TF.exe"}
+    ]
+}
