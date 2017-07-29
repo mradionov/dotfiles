@@ -4,9 +4,13 @@
 HOST_PROMPT_="%{$fg_bold[cyan]%}%c "
 
 # Highlights current Node.JS version based on NVM
+# Checks first if nvm exists
 # Example:
 # nvm:(v7.9.0)
-NVM_PROMPT_="%{$fg_bold[blue]%}nvm:(%{$fg[green]%}\$(nvm current)%{$fg_bold[blue]%})%{$reset_color%} "
+NVM_PROMPT_=""
+if type nvm >/dev/null; then
+  NVM_PROMPT_="%{$fg_bold[blue]%}nvm:(%{$fg[green]%}\$(nvm current)%{$fg_bold[blue]%})%{$reset_color%} "
+fi
 
 # Highlights current Git branch and it's state
 # Example:
