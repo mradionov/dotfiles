@@ -3,10 +3,11 @@ dotfiles
 
 ### Prereq
 
-- git
-- Sublime Text 3
-- zsh and oh-my-zsh
-- nvm
+- **Sublime Text 3**
+- **zsh and oh-my-zsh**
+- **git**
+- *nvm*
+- *pyenv*
 
 ### Install
 
