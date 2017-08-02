@@ -1,0 +1,22 @@
+{
+  "scope": "source.js - string, source.jsx, source.tsx",
+
+  "completions": [
+    {
+      "trigger": "ir",
+      "contents": "import React from 'react';"
+    },
+    {
+      "trigger": "irc",
+      "contents": "import React, { Component } from 'react';"
+    },
+    {
+      "trigger": "irp",
+      "contents": "import React, { PureComponent } from 'react';"
+    },
+    {
+      "trigger": "ip",
+      "contents": "import PropTypes from 'prop-types';"
+    },
+  ]
+}
