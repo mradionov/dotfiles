@@ -39,8 +39,13 @@ do_link() {
 
 
 # Sublime Text 3
-# Ubuntu 14.04
-do_link "sublime" "$HOME/.config/sublime-text-3/Packages/User"
+if [[ "$(uname)" == "Darwin" ]]; then
+  # Mac OS
+  do_link "sublime" "$HOME/Library/Application Support/Sublime Text 3/Packages/User"
+else
+  # Ubuntu 14.04
+  do_link "sublime" "$HOME/.config/sublime-text-3/Packages/User"
+fi
 
 # ZSH
 # Ubuntu 14.04
