@@ -6,6 +6,6 @@
     { "trigger": "ce", "contents": "console.error($0);" },
     { "trigger": "cd", "contents": "console.dir($0);" },
     { "trigger": "cw", "contents": "console.warn($0);" },
-    { "trigger": "de", "contents": "debugger;" },
+    { "trigger": "de", "contents": "debugger;" }
   ]
 }

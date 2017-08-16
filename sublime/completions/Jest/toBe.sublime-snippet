@@ -1,0 +1,7 @@
+<snippet>
+  <content><![CDATA[expect($1).toBe($2);]]>
+  </content>
+  <tabTrigger><![CDATA[etb]]></tabTrigger>
+  <scope>source.js</scope>
+  <description>Jest: expect.toBe</description>
+</snippet>

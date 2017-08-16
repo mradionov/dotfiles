@@ -1,0 +1,10 @@
+<snippet>
+  <content><![CDATA[
+test('$1', () => {
+  $0
+});]]>
+  </content>
+  <tabTrigger><![CDATA[test]]></tabTrigger>
+  <scope>source.js</scope>
+  <description>Jest: test</description>
+</snippet>
