@@ -10,14 +10,10 @@
 	"installed_packages":
 	[
 		"Babel",
-		"Babel Snippets",
 		"ChangeQuotes",
 		"Color Highlighter",
-		"Copy Relative Path",
-		"CopyFilepathWithLineNumbers",
 		"DocBlockr",
 		"EditorConfig",
-		"EJS",
 		"Emmet",
 		"FileDiffs",
 		"Git",
@@ -34,9 +30,7 @@
 		"SublimeLinter-contrib-eslint",
 		"Theme - Cobalt2",
 		"TrailingSpaces",
-		"TypeScript",
-		"Vue Syntax Highlight",
-		"Vuejs Snippets"
+		"TypeScript"
 	],
 	"repositories":
 	[

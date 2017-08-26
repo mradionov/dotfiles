@@ -2,5 +2,6 @@ Package Control.merged-ca-bundle
 Package Control.user-ca-bundle
 Package Control.last-run
 Package Control.cache
-Color Highlighter
 oscrypto-ca-bundle.crt
+Color Highlighter
+SublimeLinter
