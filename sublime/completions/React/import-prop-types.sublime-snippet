@@ -1,0 +1,7 @@
+<snippet>
+  <content><![CDATA[import PropTypes from 'prop-types']]>
+  </content>
+  <tabTrigger><![CDATA[ip]]></tabTrigger>
+  <scope>source.js</scope>
+  <description>React: import PropTypes</description>
+</snippet>
