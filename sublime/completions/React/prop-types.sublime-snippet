@@ -1,6 +1,6 @@
 <snippet>
   <content><![CDATA[
-${1:ComponentName}.propTypes = {
+${1:${TM_FILENAME/(.+)\..+|.*/$1/:ComponentName}}.propTypes = {
   $0
 };]]>
   </content>

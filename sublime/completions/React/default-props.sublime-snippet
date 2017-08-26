@@ -1,6 +1,6 @@
 <snippet>
   <content><![CDATA[
-${1:ComponentName}.defaultProps = {
+${1:${TM_FILENAME/(.+)\..+|.*/$1/:ComponentName}}.defaultProps = {
   $0
 };]]>
   </content>

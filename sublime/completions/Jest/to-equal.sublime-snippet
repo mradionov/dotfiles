@@ -1,7 +1,7 @@
 <snippet>
   <content><![CDATA[expect($1).toEqual($2);]]>
   </content>
-  <tabTrigger><![CDATA[ete]]></tabTrigger>
+  <tabTrigger><![CDATA[te]]></tabTrigger>
   <scope>source.js</scope>
   <description>Jest: expect.toEqual</description>
 </snippet>

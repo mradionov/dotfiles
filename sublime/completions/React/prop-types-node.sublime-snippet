@@ -1,0 +1,8 @@
+<snippet>
+  <content><![CDATA[
+${1}: PropTypes.node${2:.isRequired},$0
+]]></content>
+  <tabTrigger><![CDATA[ptno]]></tabTrigger>
+  <scope>source.js</scope>
+  <description>React: PropTypes.node</description>
+</snippet>
