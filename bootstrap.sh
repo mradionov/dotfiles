@@ -38,13 +38,30 @@ do_link() {
 }
 
 
+mac_sublime_path="$HOME/Library/Application Support/Sublime Text 3/Packages/User"
+mac_sublime_pref_path="$mac_sublime_path/Preferences.sublime-settings"
+mac_sublime_font_face="Menlo"
+mac_sublime_font_size="12"
+
+linux_sublime_path="$HOME/.config/sublime-text-3/Packages/User"
+linux_sublime_pref_path="$linux_sublime_path/Preferences.sublime-settings"
+linux_sublime_font_face="DejaVu Sans Mono"
+linux_sublime_font_size="10"
+
+
 # Sublime Text 3
 if [[ "$(uname)" == "Darwin" ]]; then
   # Mac OS
-  do_link "sublime" "$HOME/Library/Application Support/Sublime Text 3/Packages/User"
+  do_link "sublime" "$mac_sublime_path"
+  cp "$mac_sublime_pref_path.sample" "$mac_sublime_pref_path"
+  sed -i "s/%FONT_FACE%/$mac_sublime_font_face/g" "$mac_sublime_pref_path"
+  sed -i "s/%FONT_SIZE%/$mac_sublime_font_size/g" "$mac_sublime_pref_path"
 else
   # Ubuntu 14.04
-  do_link "sublime" "$HOME/.config/sublime-text-3/Packages/User"
+  do_link "sublime" "$linux_sublime_path"
+  cp "$linux_sublime_pref_path.sample" "$linux_sublime_pref_path"
+  sed -i "s/%FONT_FACE%/$linux_sublime_font_face/g" "$linux_sublime_pref_path"
+  sed -i "s/%FONT_SIZE%/$linux_sublime_font_size/g" "$linux_sublime_pref_path"
 fi
 
 # ZSH
