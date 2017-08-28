@@ -28,6 +28,7 @@
 		"Sass",
 		"SublimeLinter",
 		"SublimeLinter-contrib-eslint",
+		"SublimeLinter-contrib-stylelint",
 		"Theme - Cobalt2",
 		"TrailingSpaces",
 		"TypeScript"
