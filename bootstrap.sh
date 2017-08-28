@@ -54,8 +54,8 @@ if [[ "$(uname)" == "Darwin" ]]; then
   # Mac OS
   do_link "sublime" "$mac_sublime_path"
   cp "$mac_sublime_pref_path.sample" "$mac_sublime_pref_path"
-  sed -i "s/%FONT_FACE%/$mac_sublime_font_face/g" "$mac_sublime_pref_path"
-  sed -i "s/%FONT_SIZE%/$mac_sublime_font_size/g" "$mac_sublime_pref_path"
+  sed -i '' "s/%FONT_FACE%/$mac_sublime_font_face/g" "$mac_sublime_pref_path"
+  sed -i '' "s/%FONT_SIZE%/$mac_sublime_font_size/g" "$mac_sublime_pref_path"
 else
   # Ubuntu 14.04
   do_link "sublime" "$linux_sublime_path"
