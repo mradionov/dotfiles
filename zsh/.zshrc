@@ -88,3 +88,13 @@ export PATH="$PYENV_ROOT/bin:$PATH"
 # Aliases
 alias zshconfig="st ~/.zshrc"
 alias zshreload="source ~/.zshrc"
+
+# Include a zsh configuration for local machine.
+# File does not exist by default, it should be created if you want to use any
+# custom aliases, exports, etc on current machine, which are different from
+# other machines.
+
+zsh_local_path="$HOME/.zshrc_local"
+if [[ -e "$zsh_local_path" ]]; then
+  source "$zsh_local_path"
+fi
