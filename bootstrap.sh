@@ -70,4 +70,6 @@ do_link "zsh/.zshrc" "$HOME/.zshrc"
 
 # Oh My Zsh
 # Ubuntu 14.04
-do_link "zsh/.oh-my-zsh/custom" "$HOME/.oh-my-zsh/custom"
+do_link "zsh/.oh-my-zsh/custom/plugins/gnome" "$HOME/.oh-my-zsh/custom/plugins/gnome"
+do_link "zsh/.oh-my-zsh/custom/plugins/react-native-extras" "$HOME/.oh-my-zsh/custom/plugins/react-native-extras"
+do_link "zsh/.oh-my-zsh/custom/themes" "$HOME/.oh-my-zsh/custom/themes"
