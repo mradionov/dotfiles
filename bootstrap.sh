@@ -10,7 +10,7 @@ do_link() {
 
   # Just link if it does not exist
   if [[ ! -e "$dest_abs_path" ]]; then
-    ls -s "$source_abs_path" "$dest_abs_path"
+    ln -s "$source_abs_path" "$dest_abs_path"
     echo "Linked $paths_out"
     return 0
   fi
