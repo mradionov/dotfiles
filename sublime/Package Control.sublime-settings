@@ -1,9 +1,5 @@
 {
 	"bootstrapped": true,
-	"channels":
-	[
-		"https://packagecontrol.io/channel_v3.json"
-	],
 	"in_process_packages":
 	[
 	],
@@ -27,13 +23,10 @@
 		"Ruby Slim",
 		"Sass",
 		"SublimeLinter",
-		"SublimeLinter-contrib-eslint",
 		"SublimeLinter-contrib-stylelint",
+		"SublimeLinter-eslint",
 		"Theme - Cobalt2",
 		"TrailingSpaces",
 		"TypeScript"
-	],
-	"repositories":
-	[
 	]
 }
