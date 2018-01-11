@@ -1,0 +1,29 @@
+<snippet>
+  <content><![CDATA[
+import React from 'react';
+import PropTypes from 'prop-types';
+
+import styles from './${TM_FILENAME/(.+)\..+|.*/$1/:ComponentName}.scss';
+
+function ${TM_FILENAME/(.+)\..+|.*/$1/:ComponentName}(props) {
+  ${1:return (
+    $0
+  );}
+}
+
+${TM_FILENAME/(.+)\..+|.*/$1/:ComponentName}.propTypes = {
+
+};
+
+${TM_FILENAME/(.+)\..+|.*/$1/:ComponentName}.defaultProps = {
+
+};
+
+export default ${TM_FILENAME/(.+)\..+|.*/$1/:ComponentName};
+
+]]>
+  </content>
+  <tabTrigger><![CDATA[rc]]></tabTrigger>
+  <scope>source.js</scope>
+  <description>React: component</description>
+</snippet>
