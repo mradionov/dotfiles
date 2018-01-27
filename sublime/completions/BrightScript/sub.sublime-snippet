@@ -1,0 +1,11 @@
+<snippet>
+  <content><![CDATA[
+sub ${1:init}()
+  $0
+end sub
+]]>
+  </content>
+  <tabTrigger><![CDATA[sub]]></tabTrigger>
+  <scope>source.brightscript</scope>
+  <description>BrightScript: sub</description>
+</snippet>

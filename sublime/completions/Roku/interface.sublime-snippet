@@ -1,0 +1,11 @@
+<snippet>
+  <content><![CDATA[
+<interface>
+  $0
+</interface>
+]]>
+  </content>
+  <tabTrigger><![CDATA[in]]></tabTrigger>
+  <scope>text.xml</scope>
+  <description>Roku: interface</description>
+</snippet>

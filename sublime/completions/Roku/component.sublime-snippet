@@ -1,0 +1,15 @@
+<snippet>
+  <content><![CDATA[
+<?xml version = "1.0" encoding = "utf-8" ?>
+
+<component name="${TM_FILENAME/(.+)\..+|.*/$1/:ComponentName}" extends="$1">
+
+  $0
+
+</component>
+]]>
+  </content>
+  <tabTrigger><![CDATA[com]]></tabTrigger>
+  <scope>text.xml</scope>
+  <description>Roku: component</description>
+</snippet>

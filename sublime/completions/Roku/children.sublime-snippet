@@ -1,0 +1,11 @@
+<snippet>
+  <content><![CDATA[
+<children>
+  $0
+</children>
+]]>
+  </content>
+  <tabTrigger><![CDATA[ch]]></tabTrigger>
+  <scope>text.xml</scope>
+  <description>Roku: children</description>
+</snippet>

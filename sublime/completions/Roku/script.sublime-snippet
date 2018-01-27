@@ -1,0 +1,9 @@
+<snippet>
+  <content><![CDATA[
+<script type="text/brightscript" uri="${TM_FILENAME/(.+)\..+|.*/$1/:ComponentName}.brs" />
+]]>
+  </content>
+  <tabTrigger><![CDATA[scr]]></tabTrigger>
+  <scope>text.xml</scope>
+  <description>Roku: script</description>
+</snippet>

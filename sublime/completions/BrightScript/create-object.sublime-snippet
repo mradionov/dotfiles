@@ -1,0 +1,9 @@
+<snippet>
+  <content><![CDATA[
+createObject("$1")
+]]>
+  </content>
+  <tabTrigger><![CDATA[co]]></tabTrigger>
+  <scope>source.brightscript</scope>
+  <description>BrightScript: createObject</description>
+</snippet>
