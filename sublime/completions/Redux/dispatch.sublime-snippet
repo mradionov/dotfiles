@@ -1,0 +1,8 @@
+<snippet>
+  <content><![CDATA[
+dispatch({ type: $1 });
+]]></content>
+  <tabTrigger><![CDATA[dis]]></tabTrigger>
+  <scope>source.js</scope>
+  <description>Redux: dispatch</description>
+</snippet>

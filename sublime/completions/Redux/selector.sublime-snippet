@@ -1,0 +1,11 @@
+<snippet>
+  <content><![CDATA[
+export const $1 = createSelector(
+  select,
+  state => state.$2,
+);$0
+]]></content>
+  <tabTrigger><![CDATA[sel]]></tabTrigger>
+  <scope>source.js</scope>
+  <description>Redux: reselect selectors</description>
+</snippet>

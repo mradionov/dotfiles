@@ -1,0 +1,33 @@
+<snippet>
+  <content><![CDATA[
+import React from 'react';
+import PropTypes from 'prop-types';
+
+import styles from './${TM_FILENAME/(.+)\..+|.*/$1/:ComponentName}.scss';
+
+class ${TM_FILENAME/(.+)\..+|.*/$1/:ComponentName} extends React.PureComponent {
+
+  render() {
+    ${1:return (
+      $0
+    );}
+  }
+
+}
+
+${TM_FILENAME/(.+)\..+|.*/$1/:ComponentName}.propTypes = {
+
+};
+
+${TM_FILENAME/(.+)\..+|.*/$1/:ComponentName}.defaultProps = {
+
+};
+
+export default ${TM_FILENAME/(.+)\..+|.*/$1/:ComponentName};
+
+]]>
+  </content>
+  <tabTrigger><![CDATA[rpc]]></tabTrigger>
+  <scope>source.js</scope>
+  <description>React: PureComponent</description>
+</snippet>

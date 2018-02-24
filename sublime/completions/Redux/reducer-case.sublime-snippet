@@ -1,0 +1,12 @@
+<snippet>
+  <content><![CDATA[
+case $1:
+  return {
+    ...state,
+    $2
+  };$0
+]]></content>
+  <tabTrigger><![CDATA[cs]]></tabTrigger>
+  <scope>source.js</scope>
+  <description>Redux: reducer case</description>
+</snippet>

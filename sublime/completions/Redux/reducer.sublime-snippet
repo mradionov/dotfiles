@@ -1,0 +1,14 @@
+<snippet>
+  <content><![CDATA[
+function ${1:reducer}(state = ${2:initialState}, action = {}) {
+  switch (action.type) {
+    $0
+    default:
+      return state;
+  }
+}
+]]></content>
+  <tabTrigger><![CDATA[red]]></tabTrigger>
+  <scope>source.js</scope>
+  <description>Redux: reducer</description>
+</snippet>
