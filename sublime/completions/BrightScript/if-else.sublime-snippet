@@ -1,0 +1,13 @@
+<snippet>
+  <content><![CDATA[
+if $1
+  $2
+else
+  $0
+end if
+]]>
+  </content>
+  <tabTrigger><![CDATA[ife]]></tabTrigger>
+  <scope>source.brightscript</scope>
+  <description>BrightScript: if-else</description>
+</snippet>

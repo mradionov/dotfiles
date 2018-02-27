@@ -1,6 +1,6 @@
 <snippet>
   <content><![CDATA[
-sub ${1:init}()
+sub ${1:init}($2)
   $0
 end sub
 ]]>

@@ -1,0 +1,9 @@
+<snippet>
+  <content><![CDATA[
+m.top.findNode("$1")
+]]>
+  </content>
+  <tabTrigger><![CDATA[fn]]></tabTrigger>
+  <scope>source.brightscript</scope>
+  <description>BrightScript: findNode</description>
+</snippet>

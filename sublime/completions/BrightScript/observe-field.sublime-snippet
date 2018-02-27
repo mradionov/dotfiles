@@ -1,0 +1,9 @@
+<snippet>
+  <content><![CDATA[
+${1:m.top}.observeField("${2:focusedChild}", "${3:onFocus}")
+]]>
+  </content>
+  <tabTrigger><![CDATA[obs]]></tabTrigger>
+  <scope>source.brightscript</scope>
+  <description>BrightScript: observeField</description>
+</snippet>
