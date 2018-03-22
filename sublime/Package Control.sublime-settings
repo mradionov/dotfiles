@@ -29,6 +29,7 @@
 		"SublimeLinter-eslint",
 		"Theme - Cobalt2",
 		"TrailingSpaces",
-		"TypeScript"
+		"TypeScript",
+		"Vue Syntax Highlight"
 	]
 }
