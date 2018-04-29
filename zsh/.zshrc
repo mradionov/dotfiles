@@ -86,6 +86,7 @@ export PATH="$PYENV_ROOT/bin:$PATH"
 # For a full list of active aliases, run `alias`.
 #
 # Aliases
+alias copy="xclip -selection c"
 alias zshconfig="st ~/.zshrc"
 alias zshreload="source ~/.zshrc"
 
