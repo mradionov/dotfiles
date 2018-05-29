@@ -1,0 +1,7 @@
+<snippet>
+  <content><![CDATA[console.timeEnd('$1');]]>
+  </content>
+  <tabTrigger><![CDATA[cte]]></tabTrigger>
+  <scope>source.js</scope>
+  <description>JavaScript: console.timeEnd</description>
+</snippet>
