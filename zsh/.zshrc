@@ -87,6 +87,7 @@ export PATH="$PYENV_ROOT/bin:$PATH"
 #
 # Aliases
 alias copy="xclip -selection c"
+alias grs="git reset HEAD^"
 alias zshconfig="st ~/.zshrc"
 alias zshreload="source ~/.zshrc"
 
