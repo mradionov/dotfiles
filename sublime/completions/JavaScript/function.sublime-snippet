@@ -5,6 +5,6 @@ function ${1:functionName}($2) {
 }]]>
   </content>
   <tabTrigger><![CDATA[fn]]></tabTrigger>
-  <scope>source.js</scope>
+  <scope>source.js,source.ts</scope>
   <description>JavaScript: function</description>
 </snippet>

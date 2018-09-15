@@ -2,6 +2,6 @@
   <content><![CDATA[import $1 from '$2';]]>
   </content>
   <tabTrigger><![CDATA[imd]]></tabTrigger>
-  <scope>source.js</scope>
+  <scope>source.js,source.ts</scope>
   <description>JavaScript: default import</description>
 </snippet>

@@ -2,6 +2,6 @@
   <content><![CDATA[console.log($1);]]>
   </content>
   <tabTrigger><![CDATA[cl]]></tabTrigger>
-  <scope>source.js</scope>
+  <scope>source.js,source.ts</scope>
   <description>JavaScript: console.log</description>
 </snippet>

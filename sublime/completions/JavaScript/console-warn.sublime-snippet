@@ -2,6 +2,6 @@
   <content><![CDATA[console.warn($1);]]>
   </content>
   <tabTrigger><![CDATA[cw]]></tabTrigger>
-  <scope>source.js</scope>
+  <scope>source.js,source.ts</scope>
   <description>JavaScript: console.warn</description>
 </snippet>

@@ -2,6 +2,6 @@
   <content><![CDATA[document.querySelector('$1');]]>
   </content>
   <tabTrigger><![CDATA[qs]]></tabTrigger>
-  <scope>source.js</scope>
+  <scope>source.js,source.ts</scope>
   <description>JavaScript: document.querySelector</description>
 </snippet>

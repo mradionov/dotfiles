@@ -2,6 +2,6 @@
   <content><![CDATA[export $0]]>
   </content>
   <tabTrigger><![CDATA[ex]]></tabTrigger>
-  <scope>source.js</scope>
+  <scope>source.js,source.ts</scope>
   <description>JavaScript: export</description>
 </snippet>

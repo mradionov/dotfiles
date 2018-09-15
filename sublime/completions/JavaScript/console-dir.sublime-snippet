@@ -2,6 +2,6 @@
   <content><![CDATA[console.dir($1);]]>
   </content>
   <tabTrigger><![CDATA[cd]]></tabTrigger>
-  <scope>source.js</scope>
+  <scope>source.js,source.ts</scope>
   <description>JavaScript: console.dir</description>
 </snippet>

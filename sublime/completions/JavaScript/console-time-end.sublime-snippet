@@ -2,6 +2,6 @@
   <content><![CDATA[console.timeEnd('$1');]]>
   </content>
   <tabTrigger><![CDATA[cte]]></tabTrigger>
-  <scope>source.js</scope>
+  <scope>source.js,source.ts</scope>
   <description>JavaScript: console.timeEnd</description>
 </snippet>

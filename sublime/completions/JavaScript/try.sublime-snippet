@@ -7,6 +7,6 @@ try {
 }]]>
   </content>
   <tabTrigger><![CDATA[try]]></tabTrigger>
-  <scope>source.js</scope>
+  <scope>source.js,source.ts</scope>
   <description>JavaScript: trycatch</description>
 </snippet>
