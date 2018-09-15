@@ -88,7 +88,7 @@ export PATH="$PYENV_ROOT/bin:$PATH"
 # Aliases
 alias copy="xclip -selection c"
 alias grs="git reset HEAD^"
-alias npmre="rm -rf node_modules && npm install"
+alias npmre="rm -rf node_modules/ && npm install"
 alias zshconfig="st ~/.zshrc"
 alias zshreload="source ~/.zshrc"
 
