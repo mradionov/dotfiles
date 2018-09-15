@@ -30,6 +30,7 @@
 		"SublimeLinter",
 		"SublimeLinter-eslint",
 		"SublimeLinter-stylelint",
+		"SublimeLinter-tslint",
 		"Theme - Cobalt2",
 		"TrailingSpaces",
 		"TypeScript",
