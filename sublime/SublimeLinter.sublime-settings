@@ -1,11 +1,21 @@
 // SublimeLinter Settings - User
 {
-  "paths": {
-    "osx": [
-      "~/.nvm/versions/node/v6.5.0/bin"
-    ],
-    "linux": [
-      "~/.nvm/versions/node/v8.9.2/bin"
-    ]
+  "debug": true,
+  "linters": {
+    "eslint": {
+      "env": {
+        "PATH": "$HOME/.nvm/versions/node/v8.12.0/bin:$PATH"
+      }
+    },
+    "stylelint": {
+      "env": {
+        "PATH": "$HOME/.nvm/versions/node/v8.12.0/bin:$PATH"
+      }
+    },
+    "tslint": {
+      "env": {
+        "PATH": "$HOME/.nvm/versions/node/v8.12.0/bin:$PATH"
+      }
+    }
   }
 }
