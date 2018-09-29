@@ -1,0 +1,10 @@
+<snippet>
+  <content><![CDATA[
+${1:document}.removeEventListener('${2:click}, (${3:ev}) => {
+  $0
+});]]>
+  </content>
+  <tabTrigger><![CDATA[rel]]></tabTrigger>
+  <scope>source.js,source.ts</scope>
+  <description>JavaScript: removeEventListener</description>
+</snippet>
