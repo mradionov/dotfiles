@@ -15,7 +15,9 @@ do_link() {
     return 0
   fi
 
+  echo "==============="
   echo "Action for $paths_out: "
+  echo "==============="
   select CHOICE in backup replace skip
   do
     case $CHOICE in
@@ -72,4 +74,5 @@ do_link "zsh/.zshrc" "$HOME/.zshrc"
 # Ubuntu 14.04
 do_link "zsh/.oh-my-zsh/custom/plugins/gnome" "$HOME/.oh-my-zsh/custom/plugins/gnome"
 do_link "zsh/.oh-my-zsh/custom/plugins/react-native-extras" "$HOME/.oh-my-zsh/custom/plugins/react-native-extras"
+do_link "zsh/.oh-my-zsh/custom/plugins/ffmpeg" "$HOME/.oh-my-zsh/custom/plugins/ffmpeg"
 do_link "zsh/.oh-my-zsh/custom/themes" "$HOME/.oh-my-zsh/custom/themes"
