@@ -1,0 +1,15 @@
+<snippet>
+  <content><![CDATA[
+i18n: {
+  messages: {
+    en: {
+      $0
+    },
+  },
+},
+]]>
+  </content>
+  <tabTrigger><![CDATA[icm]]></tabTrigger>
+  <scope>text.html.vue</scope>
+  <description>Vue: i18n component messages</description>
+</snippet>
