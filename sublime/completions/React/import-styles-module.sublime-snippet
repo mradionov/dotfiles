@@ -1,7 +1,7 @@
 <snippet>
   <content><![CDATA[import styles from './${1:${TM_FILENAME/(.+)\..+|.*/$1/:ComponentName}.module.scss}';]]>
   </content>
-  <tabTrigger><![CDATA[is]]></tabTrigger>
+  <tabTrigger><![CDATA[ism]]></tabTrigger>
   <scope>source.js</scope>
-  <description>React: import styles</description>
+  <description>React: import styles module</description>
 </snippet>

@@ -1,0 +1,15 @@
+<snippet>
+  <content><![CDATA[
+const enchance = connect(${1:state => (\{
+  $2
+\})}${3:, \{
+  $0
+\}});
+
+export default enchance(${TM_FILENAME/(.+)\..+|.*/$1/:ComponentName});
+]]>
+  </content>
+  <tabTrigger><![CDATA[enc]]></tabTrigger>
+  <scope>source.js</scope>
+  <description>React: enchance connect</description>
+</snippet>

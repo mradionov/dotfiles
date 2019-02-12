@@ -1,0 +1,12 @@
+<snippet>
+  <content><![CDATA[
+export const $1 = '$2/$1';
+export const $3 = (${4}) => ({
+  type: $1,
+  ${5},
+});
+]]></content>
+  <tabTrigger><![CDATA[act]]></tabTrigger>
+  <scope>source.js</scope>
+  <description>Redux: action</description>
+</snippet>

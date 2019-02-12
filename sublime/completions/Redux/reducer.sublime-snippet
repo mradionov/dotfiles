@@ -1,12 +1,17 @@
 <snippet>
   <content><![CDATA[
+const ${2:initialState} = {
+  $0
+};
+
 function ${1:reducer}(state = ${2:initialState}, action = {}) {
   switch (action.type) {
-    $0
     default:
       return state;
   }
 }
+
+export default reducer;
 ]]></content>
   <tabTrigger><![CDATA[red]]></tabTrigger>
   <scope>source.js</scope>

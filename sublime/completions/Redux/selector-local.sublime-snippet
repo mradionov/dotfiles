@@ -1,0 +1,8 @@
+<snippet>
+  <content><![CDATA[
+const getLocalState = state => state.$1;$0
+]]></content>
+  <tabTrigger><![CDATA[losel]]></tabTrigger>
+  <scope>source.js</scope>
+  <description>Redux: local selector</description>
+</snippet>
