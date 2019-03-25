@@ -4,17 +4,17 @@
   "linters": {
     "eslint": {
       "env": {
-        "PATH": "$HOME/.nvm/versions/node/v8.12.0/bin:$PATH"
+        "PATH": "$HOME/.nvm/versions/node/v10.15.0/bin:$PATH"
       }
     },
     "stylelint": {
       "env": {
-        "PATH": "$HOME/.nvm/versions/node/v8.12.0/bin:$PATH"
+        "PATH": "$HOME/.nvm/versions/node/v10.15.0/bin:$PATH"
       }
     },
     "tslint": {
       "env": {
-        "PATH": "$HOME/.nvm/versions/node/v8.12.0/bin:$PATH"
+        "PATH": "$HOME/.nvm/versions/node/v10.15.0/bin:$PATH"
       }
     }
   }
