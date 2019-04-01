@@ -1,0 +1,10 @@
+<snippet>
+  <content><![CDATA[
+<${1:div} className={styles.$2}>
+  $0
+</$1>
+]]></content>
+  <tabTrigger><![CDATA[tc]]></tabTrigger>
+  <scope>source.js</scope>
+  <description>React: JSX Tag with className</description>
+</snippet>

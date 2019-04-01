@@ -1,0 +1,10 @@
+<snippet>
+  <content><![CDATA[
+<${1:div}>
+  $0
+</$1>
+]]></content>
+  <tabTrigger><![CDATA[t]]></tabTrigger>
+  <scope>source.js</scope>
+  <description>React: JSX Tag</description>
+</snippet>

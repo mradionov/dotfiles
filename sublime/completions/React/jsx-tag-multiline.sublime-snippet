@@ -1,0 +1,12 @@
+<snippet>
+  <content><![CDATA[
+<${1:div}
+  $2
+>
+  $0
+</$1>
+]]></content>
+  <tabTrigger><![CDATA[tm]]></tabTrigger>
+  <scope>source.js</scope>
+  <description>React: JSX Tag multiline</description>
+</snippet>

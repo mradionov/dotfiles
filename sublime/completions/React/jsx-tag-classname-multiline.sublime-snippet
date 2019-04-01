@@ -1,0 +1,13 @@
+<snippet>
+  <content><![CDATA[
+<${1:div}
+  className={styles.$2}
+  $3
+>
+  $0
+</$1>
+]]></content>
+  <tabTrigger><![CDATA[tcm]]></tabTrigger>
+  <scope>source.js</scope>
+  <description>React: JSX Tag with className multiline</description>
+</snippet>
