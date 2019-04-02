@@ -1,0 +1,10 @@
+<snippet>
+  <content><![CDATA[
+shouldComponentUpdate() {
+  $0
+}
+]]></content>
+  <tabTrigger><![CDATA[scu]]></tabTrigger>
+  <scope>source.js</scope>
+  <description>React: shouldComponentUpdate</description>
+</snippet>
