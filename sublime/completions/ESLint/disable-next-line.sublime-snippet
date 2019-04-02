@@ -2,7 +2,7 @@
   <content><![CDATA[
 // eslint-disable-next-line $0
 ]]></content>
-  <tabTrigger><![CDATA[edl]]></tabTrigger>
+  <tabTrigger><![CDATA[ednl]]></tabTrigger>
   <scope>source.js</scope>
   <description>ESLint: eslint-disable-next-line</description>
 </snippet>
