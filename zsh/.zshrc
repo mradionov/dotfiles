@@ -87,6 +87,12 @@ alias npmre="rm -rf node_modules/ && npm install"
 alias zshconfig="st ~/.zshrc"
 alias zshreload="source ~/.zshrc"
 
+case `uname` in
+  Linux)
+    alias chromecors="nohup google-chrome --disable-web-security --user-data-dir &"
+  ;;
+esac
+
 # Include a zsh configuration for local machine.
 # File does not exist by default, it should be created if you want to use any
 # custom aliases, exports, etc on current machine, which are different from
