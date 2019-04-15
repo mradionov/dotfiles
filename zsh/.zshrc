@@ -88,6 +88,12 @@ alias zshconfig="st ~/.zshrc"
 alias zshreload="source ~/.zshrc"
 
 case `uname` in
+  Darwin)
+    # Open chrome ignoring CORS, make sure to close all Chrome instances before running
+    alias chrome="open -a Google\ Chrome"
+    alias chromecors="open -a Google\ Chrome --args --disable-web-security --user-data-dir"
+    alias sksec="/Applications/Skype.app/Contents/MacOS/Skype --secondary"
+  ;;
   Linux)
     alias chromecors="nohup google-chrome --disable-web-security --user-data-dir &"
   ;;
