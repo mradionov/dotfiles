@@ -1,0 +1,10 @@
+<snippet>
+  <content><![CDATA[
+export const $1 = (${2}) => ${3:async }(dispatch${4:, getState}) => {
+  $0
+};
+]]></content>
+  <tabTrigger><![CDATA[tact]]></tabTrigger>
+  <scope>source.js</scope>
+  <description>Redux: thunk action</description>
+</snippet>
