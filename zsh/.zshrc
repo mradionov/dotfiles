@@ -84,6 +84,10 @@ source $ZSH/oh-my-zsh.sh
 alias copy="xclip -selection c"
 alias grs="git reset HEAD^"
 alias npmre="rm -rf node_modules/ && npm install"
+alias kb="kubectl"
+alias kbtoken="kubectl -n kube-system describe secret $(kubectl -n kube-system get secret | grep admin-user | awk '{print $1}')"
+alias mk="minikube"
+alias sk="skaffold"
 alias zshconfig="st ~/.zshrc"
 alias zshreload="source ~/.zshrc"
 
