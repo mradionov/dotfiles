@@ -51,7 +51,7 @@ ZSH_THEME="mradionov"
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(bundler git gnome kubectl nvm pyenv rails react-native react-native-extras sublime ffmpeg)
+plugins=(bundler git gnome kubectl minikube nvm pyenv rails react-native react-native-extras sublime ffmpeg)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -95,7 +95,7 @@ case `uname` in
   Darwin)
     # Open chrome ignoring CORS, make sure to close all Chrome instances before running
     alias chrome="open -a Google\ Chrome"
-    alias chromecors="open -a Google\ Chrome --args --disable-web-security --user-data-dir"
+    alias chromecors="open -a Google\ Chrome --args --disable-web-security --user-data-dir /tmp/chrome-user-data"
     alias sksec="/Applications/Skype.app/Contents/MacOS/Skype --secondary"
   ;;
   Linux)
