@@ -103,6 +103,10 @@ case `uname` in
   ;;
 esac
 
+kbsh() {
+  kubectl exec -it $(kubectl get pods | grep "$1" | awk '{print $1}') '/bin/sh'
+}
+
 # Include a zsh configuration for local machine.
 # File does not exist by default, it should be created if you want to use any
 # custom aliases, exports, etc on current machine, which are different from
