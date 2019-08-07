@@ -85,7 +85,8 @@ alias copy="xclip -selection c"
 alias grs="git reset HEAD^"
 alias npmre="rm -rf node_modules/ && npm install"
 alias kb="kubectl"
-alias kbtoken="kubectl -n kube-system describe secret $(kubectl -n kube-system get secret | grep admin-user | awk '{print $1}')"
+alias kbtoken="kubectl -n kube-system describe secret $(kubectl -n kube-system get secret | grep default-token | cut -d " " -f1)"
+alias kbpf="kubectl port-forward"
 alias mk="minikube"
 alias sk="skaffold"
 alias zshconfig="st ~/.zshrc"
@@ -105,6 +106,9 @@ esac
 
 kbsh() {
   kubectl exec -it $(kubectl get pods | grep "$1" | awk '{print $1}') '/bin/sh'
+}
+kbpd() {
+  kubectl port-forward --namespace=kube-system services/kubernetes-dashboard 8443:443
 }
 
 # Include a zsh configuration for local machine.
