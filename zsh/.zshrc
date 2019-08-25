@@ -51,7 +51,7 @@ ZSH_THEME="mradionov"
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git gnome kubectl minikube nvm pyenv react-native react-native-extras sublime ffmpeg)
+plugins=(git gnome kubectl minikube nvm pyenv react-native react-native-extras sublime ffmpeg z)
 
 source $ZSH/oh-my-zsh.sh
 
