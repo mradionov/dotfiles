@@ -5,6 +5,6 @@ test('$1', () => {
 });]]>
   </content>
   <tabTrigger><![CDATA[test]]></tabTrigger>
-  <scope>source.js</scope>
+  <scope>source.js,source.ts</scope>
   <description>Jest: test</description>
 </snippet>

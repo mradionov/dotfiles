@@ -5,6 +5,6 @@ describe('$1', () => {
 });]]>
   </content>
   <tabTrigger><![CDATA[desc]]></tabTrigger>
-  <scope>source.js</scope>
+  <scope>source.js,source.ts</scope>
   <description>Jest: describe</description>
 </snippet>

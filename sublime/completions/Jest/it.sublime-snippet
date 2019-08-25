@@ -5,6 +5,6 @@ it('$1', () => {
 });]]>
   </content>
   <tabTrigger><![CDATA[it]]></tabTrigger>
-  <scope>source.js</scope>
+  <scope>source.js,source.ts</scope>
   <description>Jest: it</description>
 </snippet>
