@@ -81,12 +81,15 @@ source $ZSH/oh-my-zsh.sh
 # For a full list of active aliases, run `alias`.
 #
 # Aliases
-alias copy="xclip -selection c"
 alias grs="git reset HEAD^"
+alias gsuir="git submodule update --init --recursive"
+alias copy="xclip -selection c"
 alias npmre="rm -rf node_modules/ && npm install"
 alias kb="kubectl"
 alias kbtoken="kubectl -n kube-system describe secret $(kubectl -n kube-system get secret | grep default-token | cut -d " " -f1)"
 alias kbpf="kubectl port-forward"
+alias kbcc="kubectl config current-context"
+alias kbuc="kubectl config use-context"
 alias mk="minikube"
 alias sk="skaffold"
 alias zshconfig="st ~/.zshrc"
