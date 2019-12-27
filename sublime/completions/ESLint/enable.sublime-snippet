@@ -3,6 +3,6 @@
 /* eslint-enable $0 */
 ]]></content>
   <tabTrigger><![CDATA[ee]]></tabTrigger>
-  <scope>source.js</scope>
+  <scope>source.js,source.ts</scope>
   <description>ESLint: eslint-enable</description>
 </snippet>

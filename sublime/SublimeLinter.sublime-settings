@@ -3,7 +3,7 @@
   "debug": true,
   "linters": {
     "eslint": {
-      "selector": "source.js, text.html.vue",
+      "selector": "source.js, source.ts, text.html.vue",
       "env": {
         "PATH": "$HOME/.nvm/versions/node/v10.15.0/bin:$PATH"
       }

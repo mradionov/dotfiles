@@ -3,6 +3,6 @@
 // eslint-disable-line $0
 ]]></content>
   <tabTrigger><![CDATA[edl]]></tabTrigger>
-  <scope>source.js</scope>
+  <scope>source.js,source.ts</scope>
   <description>ESLint: eslint-disable-line</description>
 </snippet>
