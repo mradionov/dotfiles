@@ -92,8 +92,10 @@ alias kbcc="kubectl config current-context"
 alias kbuc="kubectl config use-context"
 alias mk="minikube"
 alias sk="skaffold"
+alias skdev="skaffold dev --cleanup=false --no-prune=true"
 alias zshconfig="st ~/.zshrc"
 alias zshreload="source ~/.zshrc"
+alias mongodstart="mongod --config /usr/local/etc/mongod.conf --fork"
 
 case `uname` in
   Darwin)
