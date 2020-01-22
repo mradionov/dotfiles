@@ -1,0 +1,10 @@
+<snippet>
+  <content><![CDATA[
+test('$1', async (t) => {
+  $0
+});]]>
+  </content>
+  <tabTrigger><![CDATA[tea]]></tabTrigger>
+  <scope>source.js,source.ts</scope>
+  <description>Ava: test async</description>
+</snippet>

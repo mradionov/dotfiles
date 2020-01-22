@@ -1,0 +1,9 @@
+<snippet>
+  <content><![CDATA[
+t.deepEqual($1, $2);$0
+]]>
+  </content>
+  <tabTrigger><![CDATA[tde]]></tabTrigger>
+  <scope>source.js,source.ts</scope>
+  <description>Ava: deep equal</description>
+</snippet>

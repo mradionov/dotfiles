@@ -1,0 +1,8 @@
+<snippet>
+  <content><![CDATA[
+${1}: PropTypes.instanceOf($2)${3:.isRequired},$0
+]]></content>
+  <tabTrigger><![CDATA[pti]]></tabTrigger>
+  <scope>source.js</scope>
+  <description>React: PropTypes.instanceOf</description>
+</snippet>

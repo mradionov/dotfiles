@@ -4,7 +4,7 @@ test('$1', (t) => {
   $0
 });]]>
   </content>
-  <tabTrigger><![CDATA[test]]></tabTrigger>
+  <tabTrigger><![CDATA[te]]></tabTrigger>
   <scope>source.js,source.ts</scope>
-  <description>Jest: test</description>
+  <description>Ava: test</description>
 </snippet>
