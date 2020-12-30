@@ -1,0 +1,7 @@
+<snippet>
+  <content><![CDATA[{ $2 }: $1]]>
+  </content>
+  <tabTrigger><![CDATA[da]]></tabTrigger>
+  <scope>source.js,source.ts</scope>
+  <description>JavaScript: destructure argument</description>
+</snippet>
