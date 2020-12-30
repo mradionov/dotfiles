@@ -1,5 +1,5 @@
 set windows_font_face=Consolas
-set windows_font_size=12
+set windows_font_size=11
 
 set user_dir=%userprofile%\AppData\Roaming\Sublime Text 3\Packages\User
 
