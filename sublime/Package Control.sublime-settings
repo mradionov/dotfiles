@@ -8,6 +8,7 @@
 		"Babel",
 		"BrightScript",
 		"ChangeQuotes",
+		"Clang Format",
 		"CMake",
 		"Color Highlighter",
 		"DocBlockr",
